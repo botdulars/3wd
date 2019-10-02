@@ -1,0 +1,47 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Botdulars Arduino Nano Education kit 
+-----------------------------------------------------
+Pin Details
+-----------------------------------------------------
+
+A0  --  Joystick  VRx 
+
+A1  --  Joystick  VRy 
+
+A2  --  Joystick  SW 
+
+A3  --  Variable Resistor (potentiometer) 
+
+A4  --  Ultrasonic Distance sensor Trig 
+
+A5  --  Ultrasonic Distance sensor Echo
+
+A6  --  LDR 
+
+A7  --  Thermistor
+
+D2  --  IR Sensor
+
+D3  --  Traffic Light Yellow LED
+
+D4  --  Buzzer
+
+D5  --  Motor H bridge IN 4
+
+D6  --  Motor H bridge IN 3
+
+D7  --  Traffic Light Red LED
+
+D8  --  Traffic Light Green LED
+
+D9  --  Motor H bridge IN 2
+
+D10  -- Motor H bridge IN 1
+
+D11  -- Servo Motor
+
+D12  -- Switch
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
