@@ -18,22 +18,20 @@ void loop(){
 }
 
 void changeLights(){
-    // green on, yellow on for 3 seconds
-    
+    // green on, yellow on for 1 second
     digitalWrite(red, LOW);
-    digitalWrite(green, LOW);
+    digitalWrite(green, HIGH);
     digitalWrite(yellow, LOW); 
     delay(1000);
 
     // turn off yellow, then turn red on for 3 seconds
     digitalWrite(yellow, LOW);
     digitalWrite(red, HIGH);
-    digitalWrite(green, HIGH) ; 
-    delay(3000);
+    digitalWrite(green, LOW) ; 
+    delay(1000);
 
     digitalWrite(green, LOW);
-    digitalWrite(red, HIGH);
-    digitalWrite(yellow, LOW) ; 
-    delay(3000);
-
+    digitalWrite(red, LOW);
+    digitalWrite(yellow, HIGH) ; 
+    delay(1000);
 }
