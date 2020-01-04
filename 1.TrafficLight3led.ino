@@ -9,6 +9,8 @@ void setup(){
     pinMode(green, OUTPUT);
     pinMode(yellow, OUTPUT);
     changeLights(); 
+    Serial.begin(9600); 
+    Serial.println("This program should have demonstrated the LED lights turning ON for 1 second each"); 
 }
 void loop(){
     //changeLights();
